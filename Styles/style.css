@@ -392,10 +392,15 @@ h3.my-profession{
 
 .resume .resume-slide .r-slide .resume-content p{
     font-size: 16px;
-    color: var(--text-black-900);
+    color: var(--bg-white-900);
     font-weight: bolder;
     padding: 10px 0;
 }
+.resume .resume-slide .r-slide .resume-content span{
+    color: var(--bg-white-900);
+}
+
+
 
 .resume .resume-slide{
     display: none;
@@ -406,7 +411,7 @@ h3.my-profession{
 }
 
 .resume .resume-slide:nth-child(1) .r-slide{
-    background: linear-gradient(90deg, var(--skin-color) 70%, white 30.1%);
+    background: linear-gradient(90deg, var(--skin-color) 70%, var(--bg-white-900) 30.1%);
     border: 1px solid var(--skin-color);
 }
 
@@ -588,7 +593,8 @@ h3.my-profession{
     align-items: center;
     flex-direction: column;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-    background: var(--skin-color);
+    background: linear-gradient(to bottom, var(--skin-color) 55%, var(--bg-white-900) 45%);
+    border: 2px solid var(--skin-color);
     margin: 10px 4px;
     transition: 0.3s;
 }
@@ -605,7 +611,7 @@ h3.my-profession{
 }
 
 .service-card p{
-    color: white;
+    color: var(--skin-color);
     text-align: center;
 }
 
@@ -679,7 +685,7 @@ h3.my-profession{
 }
 
 .service-content .skillsp{
-    color: red;
+    color: var(--text-black-900);
     display: flex;
     justify-content: center;
     align-items: center;

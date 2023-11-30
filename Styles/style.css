@@ -400,8 +400,6 @@ h3.my-profession{
     color: var(--bg-white-900);
 }
 
-
-
 .resume .resume-slide{
     display: none;
 }
@@ -481,6 +479,23 @@ h3.my-profession{
     color: var(--text-black-900);
 }
 
+.digitalContent {
+    display: flex;
+    flex-direction: row; /* Set the direction to row */
+    justify-content: space-between; /* Optional: Adjust as needed */
+}
+
+.training {
+    display: flex;
+    flex-direction: column; /* Set the direction to column for each training section */
+}
+
+.training p {
+    margin-bottom: 5px; /* Optional: Add margin for spacing between h4 and p */
+}
+
+
+    
 
 /* end of Resume styles */
 
@@ -499,13 +514,13 @@ h3.my-profession{
     }
     .resume .resume-slide .r-slide .resume-content .digi1 {
         font-size: 12px;
-        color: #d72727;
+        color: #070707;
         font-weight: bolder;
         padding: 10px 0;
     }
     .resume .resume-slide .r-slide .resume-content .digi2 {
         font-size: 12px;
-        color: #d72727;
+        color: #080808;
         font-weight: bolder;
         padding: 10px 0;
     }
@@ -518,6 +533,7 @@ h3.my-profession{
         width: 100%;
         margin-top: 30px;
     }
+    
 }
 
 
@@ -545,6 +561,24 @@ h3.my-profession{
     .resume-content h4 {
         color: var(--skin-color);
     };
+    .resume .resume-slide .r-slide .resume-content h4{
+        color: var(--text-black-900);
+    }
+    
+    .resume .resume-slide .r-slide .resume-content p{
+        font-size: 16px;
+        color: var(--text-black-900);
+    }
+    .resume .resume-slide .r-slide .resume-content span{
+        color: var(--text-black-900);
+    }
+    .resume #prev{
+       margin-top: 30px;
+    }
+    
+    .resume #next{
+        margin-top: 30px;
+    }
 
 }
 /* Service styles */
@@ -711,6 +745,10 @@ h3.my-profession{
         min-height: 300px;
         margin: 10px auto;
     }
+    .service-content .skillsp{
+        margin-left: 30px;
+        margin-right: 20px;
+    }
 }
 
 /* Skills styles */
@@ -755,7 +793,7 @@ h3.my-profession{
 
 @media (max-width: 768px) {
     #marquee .pic-container .pic {
-        flex-basis: 33.33%;
+        flex-basis: 60.33%;
     }
 }
 
@@ -1009,7 +1047,7 @@ h3.my-profession{
 
 .contact-container .contactForm h2{
     font-size: 2em;
-    color: var(--text-black-700);
+    color: white;
     font-weight: 500;
 }
 
@@ -1073,6 +1111,7 @@ h3.my-profession{
 }
 
 
+
 @media (max-width: 991px){
     .contact-content{
         padding: 50px;
@@ -1087,6 +1126,13 @@ h3.my-profession{
     }
     .contact-container .contactForm{
         padding: 50px 30px;
+    }
+    .contact-container .contactForm{
+        
+        width: 350px;
+    
+        
+        padding: 60px;
     }
 }
 

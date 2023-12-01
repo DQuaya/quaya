@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Bebas+Neue&family=Black+Ops+One&family=Clicker+Script&family=Montserrat&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+/* styled by DonQuaya */
 :root{
     --bg-white-900:#f2f2fc;
     --bg-white-100:#fdf9ff;
@@ -38,6 +38,7 @@ body{
 }
 
 /* Reused Styles */
+/* styled by DonQuaya */
 ul{
     list-style: none;
 }
@@ -125,6 +126,7 @@ ul{
 /* end of reused styles */
 
 /* Nav styles */
+/* styled by DonQuaya */
 
 .aside{
     width: 270px;
@@ -257,6 +259,7 @@ ul{
 /* end of Nav styles */
 
 /* Home Styles */
+/* styled by DonQuaya */
 
 .btn{
     font-size: 16px;
@@ -353,6 +356,7 @@ h3.my-profession{
 /* end of Home styles */
 
 /* resume styles */
+/* styled by DonQuaya */
 
 .resume{
     position: relative;
@@ -386,18 +390,18 @@ h3.my-profession{
 
 .resume .resume-slide .r-slide .resume-content h3{
     font-size: 35px;
-    color: var(--bg-white-900);
+    color: white;
     font-family: 'righteous', sans-serif;
 }
 
 .resume .resume-slide .r-slide .resume-content p{
     font-size: 16px;
-    color: var(--bg-white-900);
+    color: white;
     font-weight: bolder;
     padding: 10px 0;
 }
 .resume .resume-slide .r-slide .resume-content span{
-    color: var(--bg-white-900);
+    color: white;
 }
 
 .resume .resume-slide{
@@ -445,8 +449,8 @@ h3.my-profession{
 }
 
 .resume #next{
-    color: var(--skin-color);
-    background: white;
+    color: white;
+    background: var(--skin-color);
 }
 
 .resume #prev:hover{
@@ -455,8 +459,8 @@ h3.my-profession{
 }
 
 .resume #next:hover{
-    background: var(--skin-color);
-    color: white;
+    background: white;
+    color: var(--skin-color);
 }
 
 .resume #prev{
@@ -468,15 +472,15 @@ h3.my-profession{
 }
 
 .resume-content h4{
-    color: var(--bg-white-900);
+    color: white;
 }
 
 .resume-content h4 span{
-    color: var(--text-black-700);
+    color: white;
 }
 
 .resume-content p{
-    color: var(--text-black-900);
+    color: white;
 }
 
 .digitalContent {
@@ -584,6 +588,7 @@ h3.my-profession{
 
 }
 /* Service styles */
+/* styled by DonQuaya */
 
 .service-content{
     min-height: 100vh;
@@ -731,6 +736,7 @@ h3.my-profession{
 }
 
 /* Service responsive  */
+/* styled by DonQuaya */
 
 @media(max-width: 991px){
     .service-content h1{
@@ -738,6 +744,7 @@ h3.my-profession{
     }
     .service-content p{
         padding: 5px 15px;
+        font-size: 17px;
     }
     .service-box{
         flex-direction: column;
@@ -757,6 +764,7 @@ h3.my-profession{
 
 
 /* Skills Styles End */
+/* styled by DonQuaya */
 
 
 #marquee {
@@ -835,6 +843,7 @@ h3.my-profession{
 
 
 /* Project styles */
+/* styled by DonQuaya */
 
 .projects-content{
     position: relative;
@@ -920,12 +929,16 @@ h3.my-profession{
         width: 70px;
         top: 60px;
     }
+    .projects-content .navigation {
+        top: 200px;
+    }
 }
 
 /* end of Projects styles */
 
 
 /* Contact Styles */
+/* styled by DonQuaya */
 
 .contact-content{
     position: relative;
@@ -1136,10 +1149,11 @@ h3.my-profession{
         
         padding: 60px;
     }
+    
 }
 
 /* End of Contact Styles */
-/* Trying to make the site responsive */
+/* responsive */
 
 @media (max-width: 1199px){
     .aside{
@@ -1159,3 +1173,5 @@ h3.my-profession{
         display: none;
     }
 }
+
+/* styled by DonQuaya */

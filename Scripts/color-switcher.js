@@ -1,12 +1,12 @@
 // Page Color switcher
-
+//Coded by DonQuaya
 const colorSwitcherToggle = document.querySelector(".color-switcher-toggler");
 colorSwitcherToggle.addEventListener("click", () => {
     document.querySelector(".color-switcher").classList.toggle("open");
 });
 
 // hide style
-
+//Coded by DonQuaya
 window.addEventListener("scroll", () => {
     if (document.querySelector(".color-switcher").classList.contains("open")) {
         document.querySelector(".color-switcher").classList.remove("open");
@@ -14,7 +14,7 @@ window.addEventListener("scroll", () => {
 });
 
 // Page Colors
-
+//Coded by DonQuaya
 const alternateStyles = document.querySelectorAll(".alternate-style");
 
 function setActiveStyle(color) {
@@ -29,7 +29,7 @@ function setActiveStyle(color) {
 
 
 // light and dark mode
-
+//Coded by DonQuaya
 const dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () => {
     dayNight.querySelector("i").classList.toggle("fa-sun");

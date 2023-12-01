@@ -1,3 +1,5 @@
+//Coded by DonQuaya
+
 var typed = new Typed(".typing", {
     strings:["","Software Engineer", "Full Stack Web Developer", "UX/UI Designer", "App Developer"],
     typeSpeed:100,

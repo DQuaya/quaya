@@ -1337,7 +1337,7 @@ h3.my-profession{
   }
   
   .purchase-slider .slider-list .slider-item .purchase-content h2{
-    font-size: 100px;
+    font-size: 70px;
     margin: 0;
   }
   
@@ -1512,7 +1512,7 @@ h3.my-profession{
   font-style: normal;
   }
 
-  .purchase-slider .slider-list .slider-item p{
+  .purchase-slider .slider-list .slider-item p:nth-child(1){
   font-family: "Rubik Mono One", monospace;
   font-weight: 400;
   font-style: normal;

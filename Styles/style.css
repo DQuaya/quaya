@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Bebas+Neue&family=Black+Ops+One&family=Clicker+Script&family=Montserrat&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Spice&family=Honk&family=Londrina+Solid:wght@300&family=Protest+Guerrilla&family=Racing+Sans+One&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Spice&family=Honk&family=Londrina+Solid:wght@300&family=Racing+Sans+One&family=Rubik+Mono+One&display=swap');
 
 /* styled by DonQuaya */
 :root{
@@ -1489,3 +1491,29 @@ h3.my-profession{
   }
 
 
+.purchase-slider .slider-list .slider-item.active h2{
+    /* font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50; */
+    
+    /* font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+
+    color: var(--skin-color);
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 3px;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  .purchase-slider .slider-list .slider-item p{
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  }

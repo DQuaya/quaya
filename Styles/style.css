@@ -1397,7 +1397,7 @@ h3.my-profession{
     height: 40px;
     border-radius: 5px;
     font-size: x-large;
-    color: white;
+    color: rgb(200, 6, 6);
     transition: .5s;
   }
   
